@@ -32,11 +32,19 @@ p.l1:first-line{
 p.l2:first-line{
     color: red;
 }
-a[href="https://www.apple.com/es/"]{
+div a[href]{
+    background-color: white;
+    color: blue;
+}
+div a:visited{
     background-color: blue;
     color: white;
 }
-a[href] {
-    background-color: white;
-    color: blue;
+img.img1{
+    width:250px ;
+    height:250px;
+    float: right;
+}
+footer p{
+    font-style: italic;
 }
