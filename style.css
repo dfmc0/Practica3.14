@@ -13,12 +13,12 @@ a.nav3:hover{
     background-color: yellow;
     color: red;
 }
-h1.titulo1{
+h1.titulo{
     text-align: center;
     color: blue;
     font-weight: 100;
 }
-span.tituloS{
+h1.titulo:first-letter{
     font-size: 4ch;
     color: black;
 }
