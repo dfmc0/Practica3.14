@@ -26,6 +26,9 @@ nav{
     text-align: center;
     color: blue;
 }
+nav a:link, a:visited, a:active {
+    text-decoration:none;
+}
 p.l1:first-line{
     color: red;
 }
@@ -36,7 +39,7 @@ div a[href]{
     background-color: white;
     color: blue;
 }
-div a:visited{
+div a[href="https://www.apple.com/es/"]:visited{
     background-color: blue;
     color: white;
 }
