@@ -1,0 +1,14 @@
+h2{
+    counter-reset: grados;
+}
+h3{
+    counter-reset: cursos;
+}
+h4::before{
+    content: counter(grados upper-alpha)". ";
+    counter-increment: grados;
+}
+p.cursos::before{
+    content: counter(cursos)". ";
+    counter-increment: cursos 1;
+}
